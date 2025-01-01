@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+body {
+  margin: 0;
+  background-color: #1E1E1E;
+}
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.link{
+  color:white;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.ff-Pd{
+  font-family: 'Playfair Display', serif;
+}
+
+.ff-popins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.ff-ss{
+  font-family: sans-serif;
+}
+
+.ff-ps{
+ font-family: 'Pinyon Script', cursive;;
+}
+
+.f-10{
+  font-size: 10px;
+}
+
+.margin-l-2{
+  margin-left: 2px !important;
+}
+
+.margin-lr-capsule{
+  margin-left: 1.5px !important;
+  margin-right: 2px !important;
+}
+.header-border{
+  width: 1px;
+  height: 25px;
+}
+/* theme  */
+.light {
+    color: #000 !important;
+    background-color: #ffffff !important;
+}
+
+.dark{
+    color: #eff2f7 !important;
+    background-color: #1E1E1E !important;
+}
+
+.text-dark-blue{
+  color: #1E1E1E;
+}
+
+.primary-color{
+  color: #FD6F00;
+}
+
+.primary-button{
+  background-color: #FD6F00 !important;
+  color: white !important;
+}
+
+.bg-dark-blue{
+  background-color:#1E1E1E !important;
+}
+.bg-light-blue{
+  background-color: #4883e9;
+}
+
+.bg-dark-light{
+  background-color: #f1f1fa !important;
+}
+
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  background-color: #1E1E1E; 
+  z-index: 100;
+}
+
+/* profile section */
+.btn-default,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger {
+  border-radius:23px;
+}
+
+.profile{
+  width: 102%;
+  height: 111%;
+  border-radius: 50%;
+  position: absolute;
+  top: -30%;
+  left: -1%;
+}
+
+.circle{
+background: linear-gradient(182.68deg, rgba(255, 255, 255, 0) -0.48%, #FF8233 78.41%);
+}
+
+.red-dot{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 3px solid #FD6F00;
+  box-shadow: 0px 4px 7px 0px #00000033;
+  background-color: white;
+  position: relative;
+  top:-75%;
+  left: -2%;
+}
+
+.orange{
+   color:  #FD6F00;
+}
+.bg-orange{
+  background-color: #FD6F00;
+}
+
+.h-10{
+  height: 10px;
+}
+
+/* skill */
+
+.skill-line{
+    width: 51rem;
+    height: 2px;
+    border: 2px solid !important;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.skill{
+  background: linear-gradient(140.53deg, rgba(255, 255, 255, 0.5) 12.34%, rgba(255, 255, 255, 0) 51.46%) !important;
+  width: 5rem !important;
+  background-color: #4883e9 !important;
+
+}
+
+
+.project-btn{
+  border: 2px solid #0d43a0;
+}
+.project-btn:hover{
+  color: #3f425a;
+}
+
+
+.filter-invert{
+  filter: invert(1);
+}
+
+.bar{
+  height: 70px;
+  border: 1px dashed orange;
+  width: 1.5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    bottom: 100%;
+}
+
+.codeshape{
+  float: left;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  shape-outside: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+

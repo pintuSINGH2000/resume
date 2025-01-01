@@ -1,0 +1,38 @@
+export const Codings = [
+  {
+    _id: 1,
+    name: "Leetcode (Knight - max.2034)",
+    linkname: "leetcode",
+    path: "/images/leetcode.png",
+    link: "https://leetcode.com/u/pintu2000/",
+    logo: "/images/leetcodelogo.png",
+    slag: "Leetocode",
+  },
+  {
+    _id: 2,
+    name: "Codechef (4★ - max.1862)",
+    linkname: "codechef",
+    path: "/images/codechef.png",
+    link: "https://www.codechef.com/users/pintu_1569",
+    logo: "/images/codechef.svg",
+    slag: "Codechef",
+  },
+  {
+    _id: 3,
+    name: "Codeforce (Specialist-max.1510)",
+    linkname: "codeforce",
+    path: "/images/codeforce.png",
+    link: "https://codeforces.com/profile/pintu_1569",
+    logo: "/images/codeforceslogo.png",
+    slag: "Codeforce",
+  },
+  {
+    _id: 3,
+    name: "HackerRank (5★)",
+    linkname: "codeforce",
+    path: "/images/hackerrank.png",
+    link: "https://www.hackerrank.com/profile/pintusingh122000",
+    logo: "/images/hacker.svg",
+    slag: "HackerRank",
+  },
+];
