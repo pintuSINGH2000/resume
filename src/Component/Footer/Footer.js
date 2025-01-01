@@ -207,3 +207,4 @@ const Footer = ({ getTheme }) => {
 };
 
 export default Footer;
+
