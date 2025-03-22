@@ -1,0 +1,12 @@
+name: Cron Job
+on:
+  schedule:
+    - cron: '30 16 * * *' 
+
+jobs:
+  cron-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Serverless Function
+        run: |
+          curl -X GET https://resume-alpha-ten.vercel.app/api/cron
