@@ -27,7 +27,7 @@ export const Codings = [
     slag: "Codeforce",
   },
   {
-    _id: 3,
+    _id: 4,
     name: "HackerRank (5★)",
     linkname: "codeforce",
     path: "/images/hackerrank.png",
